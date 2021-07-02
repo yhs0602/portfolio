@@ -26,12 +26,18 @@
 @font-face {
     font-family: "Manrope";
     font-style: bold;
-    font-weight: 100;
+    font-weight: 500;
     src: url(asset/font/Manrope-Bold.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: "Manrope";
+    font-weight: 100;
+    src: url(asset/font/Manrope-Light.ttf) format("truetype");
+}
+
 body {
-    padding: 10px 0;
+    padding: 10px 30px;
 }
 
 a {
@@ -40,7 +46,6 @@ a {
 }
 
 .header {
-    padding: 0 30px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -71,52 +76,99 @@ a {
 .long_line {
     height: 1px;
     background: rgb(211, 211, 211);
-    margin: 30px 30px;
+    margin: 30px 0;
 }
 
 .full_name {
-    padding: 40px 0;
+    padding: 20px 0 0;
     font-family: Manrope, sans-serif;
-    font-weight: 100;
+    font-weight: 500;
     font-size: 40px;
+    line-height: 40px;
     color: #b4cce7;
 }
 
-.skill_container {
-    height: 550px;
-    width: 100vw;
-    background: #dde8f5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.short_line {
+    width: 70px;
+    height: 1px;
+    background: rgb(211, 211, 211);
+    margin: 30px 0;
 }
 
-.wrapper {
+.projects {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0 70px;
+    align-items: flex-start;
 }
 
-.image_container {
-    padding-bottom: 20px;
+.project {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
 }
 
 .image {
-    width: 100px;
-    padding: 0 5px;
+    width: 300px;
+    box-shadow: 0 3px 20px rgb(0, 0, 0, 0.2);
+    margin-right: 30px;
+    transition: 1s;
 }
 
-.introduce {
-    font-family: GothicA1, sans-serif;
-    font-size: 17px;
+.image:hover {
+    width: 500px;
+    transition: 1s;
+}
+
+.project_name {
+    font-family: Manrope, sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    padding-bottom: 7px;
+}
+
+.siksha {
+    color: rgb(239, 146, 100);
+}
+
+.snulife {
+    color: rgb(83, 181, 236);
+}
+
+.period {
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
     font-weight: 100;
-    background: white;
-    width: 150px;
-    height: 40px;
+    padding-bottom: 10px;
+}
+
+.explain {
+    font-family: GothicA1, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.tags {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+.tag {
+    height: 30px;
+    padding: 0 10px;
     border-radius: 100px;
-    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.t_siksha {
+    background: rgb(239, 146, 100);
+}
+
+.t_snu {
+    background: rgb(83, 181, 236);
 }
