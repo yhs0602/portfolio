@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "FredokaOne";
+    font-style: normal;
+    font-weight: 100;
+    src: url(asset/font/FredokaOne-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "GothicA1";
+    font-weight: 100;
+    src: url(asset/font/GothicA1-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "GothicA1";
+    font-weight: 300;
+    src: url(asset/font/GothicA1-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "GothicA1";
+    font-weight: 500;
+    src: url(asset/font/GothicA1-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Manrope";
+    font-style: bold;
+    font-weight: 100;
+    src: url(asset/font/Manrope-Bold.ttf) format("truetype");
+}
+
+body {
+    padding: 10px 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #b4cce7;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: FredokaOne, sans-serif;
+    color: #b4cce7;
+}
+
+.name {
+    font-size: 80px;
+}
+
+.menus {
+    display: flex;
+}
+
+.menu {
+    font-size: 35px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.long_line {
+    height: 1px;
+    background: rgb(211, 211, 211);
+    margin: 30px 0;
+}
+
+.image {
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 300px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+}
+
+.full_name {
+    padding: 40px 0;
+    font-family: Manrope, sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: #b4cce7;
+}
+
+.introduce {
+    text-align: center;
+    font-family: GothicA1, sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.short_line {
+    width: 70px;
+    height: 1px;
+    background: rgb(211, 211, 211);
+    margin: 30px 0;
+}
+
+.icon {
+    width: 60px;
+    padding: 0 10px;
+}
