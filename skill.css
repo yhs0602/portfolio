@@ -1,3 +1,5 @@
+@import url("common.css");
+
 @font-face {
     font-family: "FredokaOne";
     font-style: normal;
@@ -34,10 +36,6 @@ body {
     padding: 10px 0;
 }
 
-a {
-    text-decoration: none;
-    color: #bd76e0;
-}
 
 .header {
     padding: 0 30px;
