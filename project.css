@@ -42,7 +42,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #b4cce7;
+    color: #bd76e0;
 }
 
 .header {
@@ -50,7 +50,7 @@ a {
     justify-content: space-between;
     align-items: flex-end;
     font-family: FredokaOne, sans-serif;
-    color: #b4cce7;
+    color: #bd76e0;
 }
 
 .name {
@@ -85,7 +85,7 @@ a {
     font-weight: 500;
     font-size: 40px;
     line-height: 40px;
-    color: #b4cce7;
+    color: #bd76e0;
 }
 
 .short_line {
@@ -163,7 +163,7 @@ a {
     justify-content: center;
     align-items: center;
     margin-right: 5px;
-    transition: 5s;
+    transition: 2s;
 }
 
 .tag:hover {
