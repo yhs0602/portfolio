@@ -36,7 +36,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #b4cce7;
+    color: #bd76e0;
 }
 
 .header {
@@ -45,7 +45,7 @@ a {
     justify-content: space-between;
     align-items: flex-end;
     font-family: FredokaOne, sans-serif;
-    color: #b4cce7;
+    color: #bd76e0;
 }
 
 .name {
@@ -79,7 +79,7 @@ a {
     font-family: Manrope, sans-serif;
     font-weight: 100;
     font-size: 40px;
-    color: #b4cce7;
+    color: #bd76e0;
 }
 
 .skill_container {
