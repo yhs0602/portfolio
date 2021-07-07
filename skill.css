@@ -20,7 +20,7 @@ body {
 .skill_container {
     height: 550px;
     width: 100vw;
-    background: #dde8f5;
+    /* background: #dde8f5; */
     display: flex;
     justify-content: center;
     align-items: center;
