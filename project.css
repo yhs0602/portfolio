@@ -167,8 +167,7 @@ a {
 }
 
 .tag:hover {
-    position:absolute;
-    top:-50px;
+    background: rgb(33,220,10);
 }
 
 .t_siksha {
