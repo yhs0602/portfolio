@@ -12,6 +12,10 @@ window.addEventListener('load', function () {
             xhttp.open('GET', includePath, true);
             xhttp.send();
         }
+        var headerTitle = el.dataset.headerTitle;
+        if (headerTitle) {
+            el.innerHTML = headerTitle;
+        }
     });
 });
 
