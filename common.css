@@ -23,6 +23,14 @@
     src: url(asset/font/GothicA1-ExtraBold.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: "Manrope";
+    font-style: bold;
+    font-weight: 100;
+    src: url(asset/font/Manrope-Bold.ttf) format("truetype");
+}
+
+
 a {
     text-decoration: none;
     color: #eaafff;
@@ -34,4 +42,13 @@ div.name {
 
 div.full_name {
     color: #eaafff;
+}
+
+.header {
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: FredokaOne, sans-serif;
+    color: #8080ee;
 }

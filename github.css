@@ -1,18 +1,7 @@
 @import url("common.css");
 
-
 body {
     padding: 10px 0;
-}
-
-
-.header {
-    padding: 0 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    font-family: FredokaOne, sans-serif;
-    color: #bd76e0;
 }
 
 .name {

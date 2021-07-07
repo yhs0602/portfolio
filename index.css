@@ -1,22 +1,7 @@
 @import url("common.css");
 
-@font-face {
-    font-family: "Manrope";
-    font-style: bold;
-    font-weight: 100;
-    src: url(asset/font/Manrope-Bold.ttf) format("truetype");
-}
-
 body {
     padding: 10px 30px;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    font-family: FredokaOne, sans-serif;
-    color: #bd76e0;
 }
 
 .name {
