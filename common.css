@@ -37,7 +37,7 @@ a {
 }
 
 div.name {
-    color: #9999ff;
+    color: #f0f010;
 }
 
 div.full_name {
@@ -45,11 +45,12 @@ div.full_name {
 }
 
 .header {
-    padding: 0 30px;
+    padding: 30 30px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     font-family: FredokaOne, sans-serif;
+    background: black;
 }
 
 .menu {

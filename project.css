@@ -58,8 +58,8 @@ body {
 }
 
 .image:hover {
-    width: 500px;
-    transition: 1s;
+    width: 400px;
+    transition: 1.5s;
 }
 
 .project_name {
