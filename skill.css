@@ -120,3 +120,8 @@ a {
     border-radius: 100px;
     box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
 }
+
+.long_icon {
+    height: 60px;
+    padding: 0 10px;
+}
