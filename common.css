@@ -53,5 +53,22 @@ div.full_name {
 }
 
 .menu {
+    font-size: 35px;
+    padding: 0 10px;
+    cursor: pointer;
     color: #8080ee;
+}
+
+.menus {
+    display: flex;
+}
+
+.name {
+    font-size: 80px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
