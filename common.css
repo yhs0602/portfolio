@@ -37,11 +37,11 @@ a {
 }
 
 div.name {
-    color: #eaafff;
+    color: #9999ff;
 }
 
 div.full_name {
-    color: #eaafff;
+    color: #9999ff;
 }
 
 .header {
@@ -56,7 +56,7 @@ div.full_name {
     font-size: 35px;
     padding: 0 10px;
     cursor: pointer;
-    color: #8080ee;
+    color: #9999ff;
 }
 
 .menus {
