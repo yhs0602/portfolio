@@ -1,11 +1,5 @@
 @import url("common.css");
 
-@font-face {
-    font-family: "Manrope";
-    font-style: bold;
-    font-weight: 100;
-    src: url(asset/font/Manrope-Bold.ttf) format("truetype");
-}
 
 body {
     padding: 10px 0;
@@ -54,7 +48,7 @@ body {
     font-size: 40px;
 }
 
-.skill_container {
+.github_container {
     height: 550px;
     width: 100vw;
     background: #dde8f5;
