@@ -163,12 +163,12 @@ a {
     justify-content: center;
     align-items: center;
     margin-right: 5px;
+    transition: 5s;
 }
 
 .tag:hover {
     position:absolute;
-    top:-500px;
-    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+    top:-50px;
 }
 
 .t_siksha {
