@@ -50,5 +50,8 @@ div.full_name {
     justify-content: space-between;
     align-items: flex-end;
     font-family: FredokaOne, sans-serif;
+}
+
+.menu {
     color: #8080ee;
 }
