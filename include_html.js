@@ -7,14 +7,15 @@ window.addEventListener('load', function () {
             xhttp.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
                     el.outerHTML = this.responseText;
+                    var headerTitle = el.dataset.headerTitle;
+                    if (headerTitle) {
+                        var titleDiv = document.querySelector('#header.#name');
+                        titleDiv.innerHTML = headerTitle;
+                    }
                 }
             };
             xhttp.open('GET', includePath, true);
             xhttp.send();
-        }
-        var headerTitle = el.dataset.headerTitle;
-        if (headerTitle) {
-            el.innerHTML = headerTitle;
         }
     });
 });
