@@ -9,7 +9,7 @@ window.addEventListener('load', function () {
                     el.outerHTML = this.responseText;
                     var headerTitle = el.dataset.headerTitle;
                     if (headerTitle) {
-                        var titleDiv = document.querySelector('#header.#name');
+                        var titleDiv = document.querySelector('.header > .name');
                         titleDiv.innerHTML = headerTitle;
                     }
                 }
