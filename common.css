@@ -50,7 +50,8 @@ div.full_name {
     justify-content: space-between;
     align-items: flex-end;
     font-family: FredokaOne, sans-serif;
-    background: black;
+    background:#80000000;
+    border-radius: 5px;
 }
 
 .menu {
