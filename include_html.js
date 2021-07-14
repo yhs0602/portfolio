@@ -3,9 +3,13 @@ window.addEventListener('load', function () {
     Array.prototype.forEach.call(allElements, function (el) {
         var includePath = el.dataset.includePath;
         if (includePath) {
-            var w = el.dataset.predW ?? 200;
-            var h = el.dataset.predH ?? 100;
-            el.outerHTML = "<div style = \"width:" + w + "px; height: "+ h; "px; background: #CCCCCC; \"></div>";
+            var w = el.dataset.predW ?? "200px";
+            var h = el.dataset.predH ?? "100px";
+            var div = document.createElement("div");
+            div.style.width = w;
+            div.style.height = h;
+            div.style.background = "#CCCCCC";
+            el.parentNode.replaceChild(div, el);
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
