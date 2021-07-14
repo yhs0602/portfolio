@@ -15,7 +15,7 @@ window.addEventListener('load', function () {
                 if (this.readyState == 4 && this.status == 200) {
                     var div2 = document.createElement('div');
                     div2.innerHTML = this.responseText;
-                    div.parentNode.replaceChild(div2.firstChild, el);
+                    div.parentNode.replaceChild(div2.firstChild, div);
                     var headerTitle = el.dataset.headerTitle;
                     if (headerTitle) {
                         var titleDiv = document.querySelector('.header > .name');
