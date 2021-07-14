@@ -13,7 +13,9 @@ window.addEventListener('load', function () {
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
-                    el.outerHTML = this.responseText;
+                    var div = document.createElement('div');
+                    div.innerHTML = this.responseText;
+                    el.parentNode.replaceChild(div.firstChild, el);
                     var headerTitle = el.dataset.headerTitle;
                     if (headerTitle) {
                         var titleDiv = document.querySelector('.header > .name');
