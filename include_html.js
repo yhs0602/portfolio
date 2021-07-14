@@ -3,6 +3,9 @@ window.addEventListener('load', function () {
     Array.prototype.forEach.call(allElements, function (el) {
         var includePath = el.dataset.includePath;
         if (includePath) {
+            var w = el.dataset.predW ?? 200;
+            var h = el.dataset.predH ?? 100;
+            el.outerHTML = "<div style = \"width:" + predW + "px; height: "+ predH; "px; background: #CCCCCC; \"></div>";
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
